@@ -1,8 +1,7 @@
 # Integrating Query-aware Segmentation and Cross Attention for Robust VQA for CVPR VizWiz Visual Question Answering 
 
 ## Our Method
-<img src=>
-
+<img src='image/model.png'>
 ## Dataset and test code
 
 Download dataset : https://vizwiz.org/tasks-and-datasets/vqa/
