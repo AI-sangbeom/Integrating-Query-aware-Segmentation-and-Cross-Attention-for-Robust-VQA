@@ -1,4 +1,6 @@
-# Integrating Query-aware Segmentation and Cross Attention for Robust VQA for CVPR VizWiz Visual Question Answering 
+## CVPR VizWiz Visual Question Answering 
+# Integrating Query-aware Segmentation and Cross Attention for Robust VQA 
+
 <p align="center">
   <img src='Image/model.png'>
 </p>
@@ -17,3 +19,4 @@
   model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-VL-Chat", trust_remote_code=True)
 </code>
 </pre>
+  - Then, replace files with Qwen-VL-Chat_core
