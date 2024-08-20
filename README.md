@@ -1,17 +1,19 @@
 # Integrating Query-aware Segmentation and Cross Attention for Robust VQA for CVPR VizWiz Visual Question Answering 
+<p align="center">
+  <img src='Image/model.png'>
+</p>
 
-<img src='Image/model.png'>
 
 ## Dataset and test code
-
-Download dataset : https://vizwiz.org/tasks-and-datasets/vqa/
-
-You also use test or validation code in this link. 
-
-We use Qwen-VL-Chat as a backbone model. 
-
+  - Download dataset : https://vizwiz.org/tasks-and-datasets/vqa/
+  - You also download test/validation code at this link. 
 
 ## Load model directly
-- You can use the Qwen-VL-Chat as follows.
-- from transformers import AutoModelForCausalLM
-- model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-VL-Chat", trust_remote_code=True)
+  - We use Qwen-VL-Chat as a backbone model. 
+  - You can use the Qwen-VL-Chat as follows.
+<pre>
+<code>
+  from transformers import AutoModelForCausalLM
+  model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-VL-Chat", trust_remote_code=True)
+</code>
+</pre>
