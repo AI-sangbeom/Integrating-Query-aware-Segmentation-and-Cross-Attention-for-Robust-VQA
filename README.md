@@ -19,4 +19,4 @@
   model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-VL-Chat", trust_remote_code=True)
 </code>
 </pre>
-  - Then, replace files with Qwen-VL-Chat_core
+  - Then, replace modeling_qwen.py, qwen_generation_utils.py, visual.py files in Qwen-VL-Chat to the files in Qwen-VL-Chat_core
