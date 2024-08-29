@@ -4,7 +4,7 @@
 <p align="center">
   <img src='Image/model.png'>
 </p>
-
+- paper : https://arxiv.org/pdf/2407.12055
 
 ## Dataset and test code
   - Download dataset : https://vizwiz.org/tasks-and-datasets/vqa/
