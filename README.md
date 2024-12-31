@@ -1,10 +1,11 @@
+paper : https://arxiv.org/pdf/2407.12055
+
 ## CVPR VizWiz Visual Question Answering 
 # Integrating Query-aware Segmentation and Cross Attention for Robust VQA 
 
 <p align="center">
   <img src='Image/model.png'>
 </p>
-- paper : https://arxiv.org/pdf/2407.12055
 
 ## Dataset and test code
   - Download dataset : https://vizwiz.org/tasks-and-datasets/vqa/
